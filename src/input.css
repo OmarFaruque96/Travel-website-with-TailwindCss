@@ -28,4 +28,28 @@
     .font17{
         font-size: 17px;
     }
+    .themeorange{
+        color: #DF6951;
+    }
+    .themeorangebg{
+        background-color: #DF6951;
+    }
+    .themeblue{
+        color: #181E4B;
+    }
+    .themedesc{
+        color: #5E6282
+    }
+    .themeyellowbg{
+       background: #F1A501;
+    }
+    .text-7xl{
+        font-size: 80px;
+    }
+    .poppins{
+        font-family: 'Poppins', sans-serif;
+    }
+    .volkhov{
+        font-family: 'Volkhov', serif;
+    }
 }

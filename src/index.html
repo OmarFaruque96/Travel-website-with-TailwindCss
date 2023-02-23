@@ -4,29 +4,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Volkhov:wght@400;700&display=swap" rel="stylesheet">
   <link href="../dist/output.css" rel="stylesheet">
 </head>
 <body>
   <!-- header section code start -->
-  <header class="">
+  <header class="absolute w-full">
     <!-- menu bar -->
     <nav class="xl:containerxl lg:containerlg md:containermd sm:containersm pt-9">
         <div class="flex justify-between">
             <a><img src="../assets/images/logo.png" width="100"/></a>
             <div>
                 <ul>
-                    <li class="inline-block ml-7"><a class="themeblack font-normal font17">Desctinations</a></li>
-                    <li class="inline-block ml-7"><a class="themeblack font-normal font17">Hotels</a></li>
-                    <li class="inline-block ml-7"><a class="themeblack font-normal font17">Flights</a></li>
-                    <li class="inline-block ml-7"><a class="themeblack font-normal font17">Booking</a></li>
-                    <li class="inline-block ml-7"><a class="themeblack font-normal font17">Login</a></li>
-                    <li class="inline-block ml-7"><a class="themeblack font-normal font17 border border-slate-700 py-2 px-6 rounded-lg">Signup</a></li>
-                    <li class="inline-block ml-7"><a class="themeblack font-normal font17">En <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+                    <li class="inline-block ml-7"><a class="themeblack font-medium font17 poppins">Desctinations</a></li>
+                    <li class="inline-block ml-7"><a class="themeblack font-medium font17 poppins">Hotels</a></li>
+                    <li class="inline-block ml-7"><a class="themeblack font-medium font17 poppins">Flights</a></li>
+                    <li class="inline-block ml-7"><a class="themeblack font-medium font17 poppins">Booking</a></li>
+                    <li class="inline-block ml-7"><a class="themeblack font-medium font17 poppins">Login</a></li>
+                    <li class="inline-block ml-7"><a class="themeblack font-medium font17 border border-slate-700 py-2 px-6 rounded-lg poppins">Signup</a></li>
+                    <li class="inline-block ml-7"><a class="themeblack font-medium font17 poppins">En <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
         </div>
     </nav>
   </header>
   <!-- header section code end -->
+  <!-- banner section code start -->
+  <section class="bg-[url('../assets/images/banner.png')] bg-cover bg-no-repeat bg-center bg-scroll">
+    <div class="xl:containerxl lg:containerlg md:containermd">
+        <div class="flex h-screen items-center">
+            <div class="basis-1/2">
+                <h5 class="font-bold text-xl leading-8 themeorange poppins mb-5">Best Destinations around the world</h5>
+                <h1 class="font-bold themeblue text-7xl leading-none volkhov mb-8">Travel, enjoy and live a new and full life</h1>
+                <p class="poppins text-base leading-7 themedesc font-medium mr-32 mb-8">Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
+                <button class="themeyellowbg poppins text-white py-4 px-9 rounded-xl mr-8">Find out more</button>
+                <button class="poppins"><i class="fa fa-play themeorangebg h-10 w-10 rounded-full text-white leading-10 text-center mr-4"></i>Play Demo</button>
+            </div>
+            <div class="basis-1/2">
+                <img src="../assets/images/lady.png" class="h-auto w-full" />
+            </div>
+        </div>
+    </div>
+  </section>
+  <!-- banner section code end -->
 </body>
 </html>

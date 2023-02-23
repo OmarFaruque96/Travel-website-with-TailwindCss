@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .containerxl{
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+    .containerlg{
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    .containermd{
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    .containersm{
+        max-width: 640px;
+        margin: 0 auto;
+    }
+}
+
+@layer utilities{
+    .themeblack{
+        color: #212832;
+    }
+    .font17{
+        font-size: 17px;
+    }
+}
